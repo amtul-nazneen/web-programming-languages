@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Amtul Nazneen Personal Page UT Dallas">
+<meta name="keywords" content="Interests,Trekking,Beaches,Trips,Cuisines">
+<meta name="author" content="Amtul Nazneen">
+<title>Interests</title>
+<link rel="stylesheet" href="styles/firststyle.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+</script>
+<script>
+	$(document).ready(function() {
+		$("#h_images").click(function() {
+			$("#interests").hide();
+		});
+		$("#s_images").click(function() {
+			$("#interests").show();
+		});
+		$("#t_images").click(function() {
+			$("#interests").toggle();
+		});
+	});
+</script>
+</head>
+<!-- body begins -->
+<body>
+    <!------------------- nav tag --------------------------------------------------------------------->
+	<nav class="nav-class">
+	<a href="index.html">Home</a> |
+		<a href="education.html">Education</a> | <a href="courses.html">Courses</a>
+		| <a href="areas.html">Areas of Expertise</a> | <a
+			href="interests.html">Interests</a> | <a href="contact.html">Contact
+			Me</a>
+	</nav>
+	<!------------------- section tag ---------------------------------------------------------------->
+	<section>
+		<h1 class="section-header">My Interests</h1>
+		<!------------------- article tag ------------------------------------------------------------>
+		<article>
+		    <!------------------- header tag --------------------------------------------------------->
+			<header  class="article-header">
+				<h1>Traveling, Exploring Cuisines & Trekking</h1>
+			</header>
+			<p class="big-text">I enjoy all three of them in my spare time. I'm extremely fond of exploring different cuisines and food cultures..</p>
+		</article>
+		<article>
+			<header  class="article-header">
+				<h1 >My interests in a picture</h1>
+			</header>
+			<ul>
+			<li class="ta-info">Click on each picture on the below image will give you more information on them</li>
+			<li class="ta-info">You can also hide/show/toggle the image using the buttons</li>
+			<li class="ta-info">Click <a href="interests2.html">here</a> to check out some more pictures and fading events!</li>
+			</ul>
+			<p ></p>
+			<button id="h_images">Hide Images</button>
+			<button id="s_images">Show Images</button>
+			<button id="t_images">Toggle Images</button>
+			<div id="interests">
+				<img src="resources/myinterests.jpeg" width="424" height="600"
+					alt="Planets" usemap="#myinterests">
+				<map name="myinterests">
+					<area shape="rect" coords="53,105,191,190" alt="interest1"
+						href="http://en.wikipedia.org/wiki/Bridge">
+					<area shape="rect" coords="49,284,200,377" alt="interest2"
+						href="http://en.wikipedia.org/wiki/Food">
+					<area shape="rect" coords="53,443,212,549" alt="interest3"
+						href="http://en.wikipedia.org/wiki/Backpacking_(wilderness)">
+					<area shape="rect" coords="258,196,377,284" alt=interest4
+						href="http://en.wikipedia.org/wiki/Wonders_of_the_World">
+					<area shape="rect" coords="256,381,384,546" alt="interest5"
+						href="http://en.wikipedia.org/wiki/Beach">
+					<area shape="rect" coords="349,43,372,62" alt="interest6"
+						href="http://en.wikipedia.org/wiki/Smile">
+					<area shape="rect" coords="235,62,377,128" alt="interest7"
+						href="http://en.wikipedia.org/wiki/Journey">
+				</map>
+			</div>
+		</article>
+	</section>
+	<!------------------- footer tag ----------------------------------------------------------------->
+	<footer class="footer-class">
+		<p>Copyright Amtul Nazneen - All Rights Reserved</p>
+	</footer>
+<body>
+</html>

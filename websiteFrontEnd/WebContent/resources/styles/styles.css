@@ -1,0 +1,36 @@
+.body_bg {
+	/*  background-image: url("../images/bg.jpg"); */
+	
+}
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+	background-color: #A7C4CF;
+}
+
+table.table td a.delete {
+	color: #FB0127;
+}
+
+.profile-tag {
+	font-family: Optima, sans-serif;
+}
+
+.site-name {
+	font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+.site-nav-bar {
+	font-family: Palatino, URW Palladio L, serif;
+}
+
+.site-background {
+	background-color: #687073;
+}
+
+.site-color {
+	color: #ffffff;
+}
+
+.center-text {
+	text-align: center;
+}

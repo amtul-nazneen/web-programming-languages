@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Amtul Nazneen Personal Page UT Dallas">
+<meta name="keywords" content="Interests,Trekking,Beaches,Trips,Cuisines">
+<meta name="author" content="Amtul Nazneen">
+<title>Interests</title>
+<link rel="stylesheet" href="styles/firststyle.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+</script>
+<script>
+	$(document).ready(function() {
+		$("#fadeto_images").dblclick(function() {
+			$("#china").fadeTo("slow", 0.15);
+			$("#cali").fadeTo("slow", 0.4);
+			$("#texas").fadeTo("slow", 0.7);
+
+		});
+		$("#fadetog_images").dblclick(function() {
+			$("#china").fadeToggle();
+			$("#cali").fadeToggle("slow");
+			$("#texas").fadeToggle(3000);
+
+		});
+		$("#fadeo_images").dblclick(function() {
+			$("#china").fadeOut();
+			$("#cali").fadeOut("slow");
+			$("#texas").fadeOut(3000);
+
+		});
+		$("#fadei_images").dblclick(function() {
+			$("#china").fadeIn();
+			$("#cali").fadeIn("slow");
+			$("#texas").fadeIn(3000);
+
+		});
+	});
+</script>
+</head>
+<!-- body begins -->
+<body>
+    <!------------------- nav tag --------------------------------------------------------------------->
+	<nav class="nav-class">
+	<a href="index.html">Home</a> |
+		<a href="education.html">Education</a> | <a href="courses.html">Courses</a>
+		| <a href="areas.html">Areas of Expertise</a> | <a
+			href="interests.html">Interests</a> | <a href="contact.html">Contact
+			Me</a>
+	</nav>
+	<!------------------- section tag ---------------------------------------------------------------->
+	<section>
+		<h1 class="section-header">My Interests</h1>
+		<!------------------- article tag ------------------------------------------------------------>
+		<article>
+		   <!------------------- header tag ------------------------------------------------------------>
+			<header  class="article-header">
+				<h1>My recent trips</h1>
+			</header>
+			<ul><li class="ta-info">Double click on the buttons below to see fading events</li></ul>
+			<button id="fadeto_images">Fade to Images</button>
+			<button id="fadetog_images">Fade toggle Images</button>
+			<button id="fadeo_images">Fade out Images</button>
+			<button id="fadei_images">Fade in Images</button>
+			<div id="china">
+				<img src="resources/china.jpg" alt="china" width="150" height="100">
+			</div>
+			<div id="cali">
+				<img src="resources/cali.jpg" alt="california" width="150" height="100">
+			</div>
+			<div id="texas">
+				<img src="resources/texas.jpg" alt="texas" width="150" height="100">
+			</div>
+		</article>
+	</section>
+	<!------------------- footer tag ----------------------------------------------------------------->
+	<footer class="footer-class">
+		<p>Copyright Amtul Nazneen - All Rights Reserved</p>
+	</footer>
+<body>
+</html>

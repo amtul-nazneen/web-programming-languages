@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>XPath Queries-2d-ii</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+	<div class="container">
+		<h2 id="header">2d-(ii): Total cost of all stocks for the same
+			company/organization</h2>
+			<a href="XpathQueries.html" class="btn btn-success" role="button">Back to XPath Home</a>
+		<hr>
+		<p id="demo"></p>
+	</div>
+	<script>
+		var xhttp = new XMLHttpRequest();
+		xhttp.onreadystatechange = function() {
+			if (this.readyState == 4 && this.status == 200) {
+				showResult(xhttp.responseXML);
+			}
+		};
+		xhttp.open("GET", "stocks.xml", true);
+		xhttp.send();
+
+		function showResult(xml) {
+			path = "//company/name";
+			if (xml.evaluate) {
+				var nodes = xml.evaluate(path, xml, null, XPathResult.ANY_TYPE,
+						null);
+				var result = nodes.iterateNext();
+				var map1 = new Map();
+				while (result) {
+					if (!map1.has(result.childNodes[0].nodeValue))
+						map1.set(result.childNodes[0].nodeValue);
+					result = nodes.iterateNext();
+				}
+			}
+			var output="";
+			var company="";
+			for (var key of map1.keys()) 
+			{
+			company=key;
+			path = "//company[name="
+					+ "'" + company + "'" + "]//parent::stock/price";
+			output+="<h3>"+company+"</h3>"+"<br>";
+			var total=0;
+			if (xml.evaluate) {
+				var nodes = xml.evaluate(path, xml, null, XPathResult.ANY_TYPE,
+						null);
+				var result = nodes.iterateNext();
+				while (result) {
+					{
+						total+=parseFloat(result.childNodes[0].nodeValue)
+					}
+					result = nodes.iterateNext();
+				}
+				total=total.toFixed(2)
+				output+=total;
+				output+="<hr>";
+			}
+		}
+			document.getElementById("demo").innerHTML = output;
+		}
+	</script>
+
+</body>
+</html>
+

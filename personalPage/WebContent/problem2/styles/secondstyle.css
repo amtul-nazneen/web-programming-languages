@@ -1,0 +1,96 @@
+table.straight, th.straight, td.straight {
+	border: 1px solid black;
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table.dotted, th.dotted, td.dotted {
+	border: 2px dashed #000000;
+	border-collapse: collapse;
+}
+
+table.blank {
+	border: 1px solid #ffffff;
+	border-collapse: collapse;
+	align: center;
+	width: 220px;
+	height: 40px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table.blank2 {
+	border: 1px solid #C3C3C3;
+	border-collapse: collapse;
+	align: center;
+	width: 220px;
+	height: 40px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#r2t1 {
+	align: center;
+	width: 320px;
+	height: 120px;
+}
+
+#r2t2 {
+	align: center;
+	width: 220px;
+	height: 40px;
+}
+
+#r2t2td1 {
+	background-color: #F9F217;
+	width: 70%;
+}
+
+#r2t3td1 {
+	width: 30%;
+}
+
+#r2td2t2 {
+	width: 40px;
+	height: 20px;
+}
+
+span {
+	text-decoration: underline;
+	text-decoration-skip: spaces;
+}
+
+#tableinner {
+	background-color: #F9F217;
+	width: 350px;
+	height: 50px;
+}
+
+#row1 {
+	background-color: #C3C3C3;
+	height: 160px;
+}
+
+#tablemain {
+	width: 1100px;
+	height: 350px;
+}
+
+#tablein1 {
+	width: 320px;
+	height: 100px;
+}
+
+#th1 {
+	width: 300px;
+	text-align: left;
+}
+
+#th2 {
+	text-align: left;
+}
+
+#tr2 {
+	height: 160px;
+}

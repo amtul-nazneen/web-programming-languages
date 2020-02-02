@@ -1,0 +1,181 @@
+/**************************** descendant based selectors ****************************/
+section button {
+	background-color: #008CBA;
+	border-radius: 8px;
+	color: white;
+	padding: 8px;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+nav a {
+	color: #FFFFFF;
+	font-family: Trattatello, fantasy;
+}
+
+div img {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0
+		rgba(0, 0, 0, 0.19);
+	margin-bottom: 25px;
+	border-radius: 300px;
+}
+/************************** class based selectors **************************/
+.footer-class {
+	position: fixed;
+	left: 00;
+	bottom: 0;
+	width: 100%;
+	background-color: #DA256A;
+	color: white;
+	text-align: center;
+	font-family: Snell Roundhand, cursive;
+}
+
+.nav-class {
+	background-color: #14649E;
+	font-size: 20px;
+	height: 50px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.article-header {
+	font-style: italic;
+	color: #AD1D54;
+	font-size: 20px;
+	font-family: Marker Felt, fantasy;
+	text-transform: capitalise;
+}
+
+.section-header {
+	font-size: 24px;
+	font-family: Chalkduster, fantasy;
+	text-transform: uppercase;
+}
+
+.big-text {
+	font-size: 18px;
+	font-family: Gill Sans, sans-serif;
+}
+
+.course-fall {
+	font-style: italic;
+	font-size: 18px;
+	font-weight: bold;
+	color: green;
+}
+
+.course-spring {
+	font-style: italic;
+	font-size: 18px;
+	font-weight: bold;
+	color: red;
+}
+
+.course-header {
+	font-style: normal;
+	font-size: 18px;
+	color: #51044F;
+	font-family: Luminari, fantasy;
+}
+
+.for-anim {
+	background: #AE079C;
+	color: #ffffff;
+	height: 100px;
+	width: 200px;
+	position: absolute;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	text-align: center;
+}
+
+.img-dim {
+	width: 150px: 
+	height:100px;
+}
+.ta-info{
+	font-family: URW Chancery L, cursive;
+	font-size: 14px;
+	color: #D8179B;
+	font-weight:bold;
+}
+.contact-button
+{
+	background-color: #008CBA;
+	border-radius: 8px;
+	color: white;
+	padding: 8px;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+/**************************** class+ID based selectors ****************************/
+#caption1.big-text {
+	color: #AD1D54;
+	font-weight: bold;
+	font-size: 16px;
+	text-decoration: underline;
+}
+
+#s1.course-spring {
+	font-weight: normal;
+}
+
+#f1.course-fall {
+	font-weight: normal;
+}
+
+#year.course-header {
+	color: #0A91C8
+}
+/*************************** ID based selectors ***************************/
+#areas1 {
+	font-weight: bold;
+	color: green;
+	font-family: Apple Chancery, cursive;
+	font-size: 14px;
+}
+
+#areas2 {
+	font-weight: bold;
+	color: #0E94D8;
+	font-family: Apple Chancery, cursive;
+	font-size: 14px;
+}
+
+#areas3 {
+	font-weight: bold;
+	color: blue;
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	font-size: 14px;
+}
+
+#areas4 {
+	font-weight: bold;
+	color: #D80EA7;
+	font-family: cursive;
+	font-size: 14px;
+}
+
+#areas5 {
+	font-weight: bold;
+	color: #D87F0E;
+	font-family: cursive;
+	font-size: 14px;
+}
+/*************************** Table styling ***************************/
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 5px;
+	text-align: left;
+}

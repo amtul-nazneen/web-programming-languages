@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Order History</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="resources/styles/styles.css">
+</head>
+<body class="body_bg">
+	<nav
+		class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-center">
+		<ul class="navbar-nav">
+			<li class="nav-item"><a class="nav-link site-nav-bar"
+				href="home.html">Rent-a-Swag</a></li>
+			<li class="nav-item"><a class="nav-link site-nav-bar"
+				href="profile.html">Profile</a></li>
+			<li class="nav-item"><a class="nav-link site-nav-bar"
+				href="orders.html">Order History</a></li>
+			<li class="nav-item"><a class="nav-link site-nav-bar"
+				href="shop.html">Shopping List</a></li>
+			<li class="nav-item"><a class="nav-link site-nav-bar"
+				href="contact.html">Contact Us</a></li>
+		</ul>
+	</nav>
+	<br />
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<h2 class="one float-left">Order History</h2>
+				<button type="button"
+					class="btn btn-primary add-new float-right disabled">Click
+					on the column header to sort the table on that order</button>
+			</div>
+		</div>
+		<table class="table table-hover" id="myTable">
+			<thead>
+				<tr>
+					<th onclick="sortTable(0)">Order Number</th>
+					<th onclick="sortTable(1)">Order Description</th>
+					<th onclick="sortTable(2)">Order Delivery Date</th>
+					<th onclick="sortTableNum(3)">Order Total Price</th>
+				</tr>
+				<tr>
+					<th><input type="text" class="form-control" id="0"
+						onkeyup="filterColumn(0)" title="Type in a name"></th>
+					<th><input type="text" class="form-control" id="1"
+						onkeyup="filterColumn(1)" title="Type in a name"></th>
+					<th><input type="text" class="form-control" id="2"
+						onkeyup="filterColumn(2)" title="Type in a name"></th>
+					<th><input type="text" class="form-control" id="3"
+						onkeyup="filterColumn(3)" title="Type in a name"></th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>RAST20190801</td>
+					<td>Nordstorm Top</td>
+					<td>August 03 2019</td>
+					<td>45.00</td>
+				</tr>
+				<tr>
+					<td>RAST20190801</td>
+					<td>Leetstyle</td>
+					<td>August 03 2019</td>
+					<td>29.99</td>
+				</tr>
+				<tr>
+					<td>RASJ20161022</td>
+					<td>Levis Jeans</td>
+					<td>October 24 2016</td>
+					<td>86.52</td>
+				</tr>
+				<tr>
+					<td>RASD20181108</td>
+					<td>Tommy Hilfiger Watch</td>
+					<td>November 10 2018</td>
+					<td>70.28</td>
+				</tr>
+				<tr>
+					<td>RASJ20181180</td>
+					<td>Cooper Jeans</td>
+					<td>November 10 2018</td>
+					<td>99.99</td>
+				</tr>
+				<tr>
+					<td>RAST20190801</td>
+					<td>Nordstorm Top</td>
+					<td>August 03 2019</td>
+					<td>45.00</td>
+				</tr>
+				<tr>
+					<td>RAST20190802</td>
+					<td>Leetstyle</td>
+					<td>August 04 2019</td>
+					<td>39.99</td>
+				</tr>
+				<tr>
+					<td>RASJ20161022</td>
+					<td>Levis Jeans</td>
+					<td>October 24 2016</td>
+					<td>86.52</td>
+				</tr>
+				<tr>
+					<td>RASD20181108</td>
+					<td>Tommy Hilfiger Watch</td>
+					<td>November 10 2018</td>
+					<td>70.28</td>
+				</tr>
+				<tr>
+					<td>RASJ20181180</td>
+					<td>Cooper Jeans</td>
+					<td>November 10 2018</td>
+					<td>99.99</td>
+				</tr>
+				<tr>
+					<td>RAST20190801</td>
+					<td>Nordstorm Top</td>
+					<td>August 03 2019</td>
+					<td>45.00</td>
+				</tr>
+				<tr>
+					<td>RAST20190801</td>
+					<td>Leetstyle</td>
+					<td>August 03 2019</td>
+					<td>29.99</td>
+				</tr>
+				<tr>
+					<td>RASJ20161022</td>
+					<td>Levis Jeans</td>
+					<td>October 24 2016</td>
+					<td>86.52</td>
+				</tr>
+				<tr>
+					<td>RASD20181108</td>
+					<td>Tommy Hilfiger Watch</td>
+					<td>November 10 2018</td>
+					<td>270.28</td>
+				</tr>
+				<tr>
+					<td>RASJ20181180</td>
+					<td>Cooper Jeans</td>
+					<td>November 10 2018</td>
+					<td>99.99</td>
+				</tr>
+				<tr>
+					<td>RAST20190801</td>
+					<td>Nordstorm Top</td>
+					<td>August 03 2019</td>
+					<td>145.00</td>
+				</tr>
+				<tr>
+					<td>RAST20190801</td>
+					<td>Leetstyle</td>
+					<td>August 03 2019</td>
+					<td>29.99</td>
+				</tr>
+				<tr>
+					<td>RASJ20161022</td>
+					<td>Levis Jeans</td>
+					<td>October 24 2016</td>
+					<td>86.52</td>
+				</tr>
+				<tr>
+					<td>RASD20181108</td>
+					<td>Tommy Hilfiger Watch</td>
+					<td>November 10 2018</td>
+					<td>170.28</td>
+				</tr>
+				<tr>
+					<td>RASJ20181180</td>
+					<td>Cooper Jeans</td>
+					<td>November 10 2018</td>
+					<td>99.99</td>
+				</tr>
+				<tr>
+					<td>RAST20190801</td>
+					<td>Nordstorm Top</td>
+					<td>August 03 2019</td>
+					<td>145.00</td>
+				</tr>
+				<tr>
+					<td>RAST20190801</td>
+					<td>Leetstyle</td>
+					<td>August 03 2019</td>
+					<td>29.99</td>
+				</tr>
+				<tr>
+					<td>RASJ20161022</td>
+					<td>Levis Jeans</td>
+					<td>October 24 2016</td>
+					<td>86.52</td>
+				</tr>
+				<tr>
+					<td>RASD20181108</td>
+					<td>Tommy Hilfiger Watch</td>
+					<td>November 10 2018</td>
+					<td>70.28</td>
+				</tr>
+				<tr>
+					<td>RASJ20181180</td>
+					<td>Cooper Jeans</td>
+					<td>November 10 2018</td>
+					<td>99.99</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<script>
+		function sortTable(col) {
+			var table, rows, switching, i, x, y, shouldSwitch;
+			table = document.getElementById("myTable");
+			switching = true;
+			while (switching) {
+				switching = false;
+				rows = table.rows;
+				for (i = 2; i < (rows.length - 1); i++) {
+					shouldSwitch = false;
+					x = rows[i].getElementsByTagName("TD")[col];
+					y = rows[i + 1].getElementsByTagName("TD")[col];
+					if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+						shouldSwitch = true;
+						break;
+					}
+				}
+				if (shouldSwitch) {
+					rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+					switching = true;
+				}
+			}
+		}
+
+		function sortTableNum(col) {
+			var table, rows, switching, i, x, y, shouldSwitch;
+			table = document.getElementById("myTable");
+			switching = true;
+			while (switching) {
+				switching = false;
+				rows = table.rows;
+				for (i = 2; i < (rows.length - 1); i++) {
+					shouldSwitch = false;
+					x = rows[i].getElementsByTagName("TD")[col];
+					y = rows[i + 1].getElementsByTagName("TD")[col];
+					if (Number(x.innerHTML) > Number(y.innerHTML)) {
+						shouldSwitch = true;
+						break;
+					}
+				}
+				if (shouldSwitch) {
+					rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+					switching = true;
+				}
+			}
+		}
+		function filterColumn(colid) {
+			var input, filter, table, tr, td, i, txtValue;
+			input = document.getElementById(colid);
+			filter = input.value.toUpperCase();
+			table = document.getElementById("myTable");
+			tr = table.getElementsByTagName("tr");
+			for (i = 0; i < tr.length; i++) {
+				td = tr[i].getElementsByTagName("td")[colid];
+				if (td) {
+					txtValue = td.textContent || td.innerText;
+					if (txtValue.toUpperCase().indexOf(filter) > -1) {
+						tr[i].style.display = "";
+					} else {
+						tr[i].style.display = "none";
+					}
+				}
+			}
+		}
+	</script>
+</body>
+</html>

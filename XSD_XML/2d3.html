@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>XPath Queries-2d-iii</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<style>
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 5px;
+}
+</style>
+<br>
+<div class="container">
+<h2 id="header">2d-(iii): Ticker Symbol, Cost, and Organization Name of all the stocks
+from a particular country</h2>
+			<a href="XpathQueries.html" class="btn btn-success" role="button">Back to XPath Home</a><br>
+				<hr>
+      <label for="country">Country Name</label>
+      <input type="text" class="form-control" id="country" placeholder="Ex: Bangladesh, Algeria" name="countryName">
+<br>
+	<button type="button" class="btn btn-primary" onclick="loadXMLDoc()">Display Results</button>
+</div>
+<div class="container">
+	<h2 id="header"></h2>
+	<p id="demo"></p>
+</div>
+<script>
+	function loadXMLDoc() {
+		var xmlhttp = new XMLHttpRequest();
+		xmlhttp.onreadystatechange = function() {
+			if (this.readyState == 4 && this.status == 200) {
+				var countryName=document.getElementById('country').value
+				myFunction(xmlhttp.responseXML,countryName.toUpperCase());
+			} 
+		};
+		xmlhttp.open("GET", "stocks.xml", true);
+		xmlhttp.send();
+	}
+	function myFunction(xml,country) {
+		var txt = "";
+		path = "//company[country=" + "'" + country + "'"
+				+ "]//parent::stock/tickerSymbol" + "|" + "//company[country="
+				+ "'" + country + "'" + "]//parent::stock/price" + "|"
+				+ "//company[country=" + "'" + country + "'" + "]/name";
+		if (xml.evaluate) {
+			var nodes = xml.evaluate(path, xml, null, XPathResult.ANY_TYPE,
+					null);
+			var result = nodes.iterateNext();
+			var i = 1;
+			var row = 1;
+			while (result) {
+				if (i % 3 == 1) {
+					txt += "<h4>Row-" + row + "</h4>";
+					txt += "<b>Ticker Symbol: </b>"
+							+ result.childNodes[0].nodeValue + "<br>";
+					row++;
+				} else if (i % 3 == 2) {
+					txt += "<b>Stock Price: </b>"
+							+ result.childNodes[0].nodeValue + "<br>";
+				} else if (i % 3 == 0) {
+					txt += "<b>Organization Name: </b>"
+							+ result.childNodes[0].nodeValue + "<br>";
+					txt += "<hr>";
+				}
+				i++;
+				result = nodes.iterateNext();
+			}
+			// Code For Internet Explorer
+		} else if (window.ActiveXObject
+				|| xhttp.responseType == "msxml-document") {
+			xml.setProperty("SelectionLanguage", "XPath");
+			nodes = xml.selectNodes(path);
+			for (i = 0; i < nodes.length; i++) {
+				txt += nodes[i].childNodes[0].nodeValue + "<br>";
+			}
+		}
+		document.getElementById("demo").innerHTML = txt;
+	}
+</script>
+
+</body>
+</html>

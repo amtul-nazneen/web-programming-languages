@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	
+	<!-- declaration of elements -->
+	<xsd:element name="tickerSymbol">
+		<xsd:simpleType>
+			<xsd:restriction base="xsd:string">
+				<xsd:pattern value="[A-Z][A-Z][A-Z]" />
+				<xsd:maxLength value="3" />
+			</xsd:restriction>
+		</xsd:simpleType>
+	</xsd:element>
+
+	<xsd:element name="releaseDate" type="xsd:date" />
+
+	<xsd:element name="price">
+		<xsd:complexType>
+			<xsd:simpleContent>
+				<xsd:extension base="xsd:decimal">
+					<xsd:attribute name="currency" use="required">
+						<xsd:simpleType>
+							<xsd:restriction base="xsd:string">
+								<xsd:enumeration value="USD" />
+							</xsd:restriction>
+						</xsd:simpleType>
+					</xsd:attribute>
+				</xsd:extension>
+			</xsd:simpleContent>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="name">
+		<xsd:simpleType>
+			<xsd:restriction base="xsd:string">
+				<xsd:pattern value="[A-Z][a-zA-Z]*( [A-Z][a-zA-Z]*)*" />
+			</xsd:restriction>
+		</xsd:simpleType>
+	</xsd:element>
+
+	<xsd:element name="totalEmployees">
+		<xsd:simpleType>
+			<xsd:restriction base="xsd:positiveInteger" />
+		</xsd:simpleType>
+	</xsd:element>
+
+
+	<xsd:element name="country">
+		<xsd:simpleType>
+			<xsd:restriction base="xsd:string">
+				<xsd:pattern value="[A-Z\s]+" />
+			</xsd:restriction>
+		</xsd:simpleType>
+	</xsd:element>
+
+	<!-- declaration of complex types -->
+		<xsd:complexType name="organization">
+			<xsd:sequence>
+				<xsd:element ref="name" />
+				<xsd:element ref="totalEmployees" />
+				<xsd:element ref="country" />
+			</xsd:sequence>
+		</xsd:complexType>
+	
+
+	<!-- declaration of complex types -->
+	<xsd:element name="stock">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="tickerSymbol" />
+				<xsd:element ref="releaseDate" />
+				<xsd:element ref="price" />
+				<xsd:element name="company" type="organization"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	
+	<!-- declaration of complex types -->
+	<xsd:element name="stocks">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="stock" maxOccurs="unbounded"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

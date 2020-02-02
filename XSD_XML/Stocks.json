@@ -1,0 +1,1302 @@
+{"stocks": {"stock": [
+    {
+        "releaseDate": "2019-01-09",
+        "price": {
+            "currency": "USD",
+            "content": 747.2
+        },
+        "tickerSymbol": "CRI",
+        "company": {
+            "country": "ARMENIA",
+            "name": "ExxonMobil",
+            "totalEmployees": 121
+        }
+    },
+    {
+        "releaseDate": "2015-12-21",
+        "price": {
+            "currency": "USD",
+            "content": 304.6
+        },
+        "tickerSymbol": "GJA",
+        "company": {
+            "country": "BELARUS",
+            "name": "Roche Holding",
+            "totalEmployees": 57
+        }
+    },
+    {
+        "releaseDate": "2018-11-02",
+        "price": {
+            "currency": "USD",
+            "content": 196.9
+        },
+        "tickerSymbol": "KSF",
+        "company": {
+            "country": "AZERBAIJAN",
+            "name": "Roche Holding",
+            "totalEmployees": 116
+        }
+    },
+    {
+        "releaseDate": "2011-02-25",
+        "price": {
+            "currency": "USD",
+            "content": 119.6
+        },
+        "tickerSymbol": "ESI",
+        "company": {
+            "country": "ANGOLA",
+            "name": "Bank Of America",
+            "totalEmployees": 114
+        }
+    },
+    {
+        "releaseDate": "2006-08-21",
+        "price": {
+            "currency": "USD",
+            "content": 256.8
+        },
+        "tickerSymbol": "DJK",
+        "company": {
+            "country": "AFGHANISTAN",
+            "name": "Procter Gamble",
+            "totalEmployees": 70
+        }
+    },
+    {
+        "releaseDate": "2022-12-25",
+        "price": {
+            "currency": "USD",
+            "content": 221.3
+        },
+        "tickerSymbol": "QXD",
+        "company": {
+            "country": "AFGHANISTAN",
+            "name": "Walt Disney",
+            "totalEmployees": 130
+        }
+    },
+    {
+        "releaseDate": "2019-10-06",
+        "price": {
+            "currency": "USD",
+            "content": 263.3
+        },
+        "tickerSymbol": "JGV",
+        "company": {
+            "country": "BELARUS",
+            "name": "Ping An Insurance Group",
+            "totalEmployees": 45
+        }
+    },
+    {
+        "releaseDate": "2013-06-07",
+        "price": {
+            "currency": "USD",
+            "content": 496
+        },
+        "tickerSymbol": "XZS",
+        "company": {
+            "country": "BARBADOS",
+            "name": "Verizon Communications",
+            "totalEmployees": 61
+        }
+    },
+    {
+        "releaseDate": "2013-06-23",
+        "price": {
+            "currency": "USD",
+            "content": 240.6
+        },
+        "tickerSymbol": "QFH",
+        "company": {
+            "country": "ANGOLA",
+            "name": "ExxonMobil",
+            "totalEmployees": 91
+        }
+    },
+    {
+        "releaseDate": "2007-08-06",
+        "price": {
+            "currency": "USD",
+            "content": 808.6
+        },
+        "tickerSymbol": "WQM",
+        "company": {
+            "country": "AUSTRIA",
+            "name": "Cisco Systems",
+            "totalEmployees": 127
+        }
+    },
+    {
+        "releaseDate": "2018-10-05",
+        "price": {
+            "currency": "USD",
+            "content": 277.4
+        },
+        "tickerSymbol": "JDU",
+        "company": {
+            "country": "ARGENTINA",
+            "name": "Cisco Systems",
+            "totalEmployees": 70
+        }
+    },
+    {
+        "releaseDate": "2013-08-01",
+        "price": {
+            "currency": "USD",
+            "content": 776
+        },
+        "tickerSymbol": "RFF",
+        "company": {
+            "country": "ANDORRA",
+            "name": "AT T",
+            "totalEmployees": 106
+        }
+    },
+    {
+        "releaseDate": "2007-01-09",
+        "price": {
+            "currency": "USD",
+            "content": 924.8
+        },
+        "tickerSymbol": "RPI",
+        "company": {
+            "country": "ANGOLA",
+            "name": "Taiwan Semiconductor",
+            "totalEmployees": 110
+        }
+    },
+    {
+        "releaseDate": "2008-01-26",
+        "price": {
+            "currency": "USD",
+            "content": 844.2
+        },
+        "tickerSymbol": "BDF",
+        "company": {
+            "country": "BARBADOS",
+            "name": "Intel",
+            "totalEmployees": 92
+        }
+    },
+    {
+        "releaseDate": "2014-07-12",
+        "price": {
+            "currency": "USD",
+            "content": 291.5
+        },
+        "tickerSymbol": "PSB",
+        "company": {
+            "country": "ARMENIA",
+            "name": "Taiwan Semiconductor",
+            "totalEmployees": 117
+        }
+    },
+    {
+        "releaseDate": "2011-08-07",
+        "price": {
+            "currency": "USD",
+            "content": 259
+        },
+        "tickerSymbol": "BNO",
+        "company": {
+            "country": "ALBANIA",
+            "name": "Intel",
+            "totalEmployees": 109
+        }
+    },
+    {
+        "releaseDate": "2016-11-08",
+        "price": {
+            "currency": "USD",
+            "content": 782.5
+        },
+        "tickerSymbol": "NUY",
+        "company": {
+            "country": "ALBANIA",
+            "name": "Procter Gamble",
+            "totalEmployees": 41
+        }
+    },
+    {
+        "releaseDate": "2008-10-23",
+        "price": {
+            "currency": "USD",
+            "content": 800.9
+        },
+        "tickerSymbol": "SAT",
+        "company": {
+            "country": "AUSTRALIA",
+            "name": "Mastercard",
+            "totalEmployees": 82
+        }
+    },
+    {
+        "releaseDate": "2020-03-01",
+        "price": {
+            "currency": "USD",
+            "content": 974.4
+        },
+        "tickerSymbol": "INR",
+        "company": {
+            "country": "ALBANIA",
+            "name": "Roche Holding",
+            "totalEmployees": 109
+        }
+    },
+    {
+        "releaseDate": "2019-04-17",
+        "price": {
+            "currency": "USD",
+            "content": 220.5
+        },
+        "tickerSymbol": "FMP",
+        "company": {
+            "country": "BARBADOS",
+            "name": "JPMorgan Chase",
+            "totalEmployees": 70
+        }
+    },
+    {
+        "releaseDate": "2006-12-16",
+        "price": {
+            "currency": "USD",
+            "content": 948.7
+        },
+        "tickerSymbol": "QVB",
+        "company": {
+            "country": "ALGERIA",
+            "name": "Alibaba",
+            "totalEmployees": 135
+        }
+    },
+    {
+        "releaseDate": "2014-08-27",
+        "price": {
+            "currency": "USD",
+            "content": 151.8
+        },
+        "tickerSymbol": "IDT",
+        "company": {
+            "country": "BANGLADESH",
+            "name": "Microsoft",
+            "totalEmployees": 92
+        }
+    },
+    {
+        "releaseDate": "2016-11-01",
+        "price": {
+            "currency": "USD",
+            "content": 516.2
+        },
+        "tickerSymbol": "XLP",
+        "company": {
+            "country": "ANDORRA",
+            "name": "Pfizer",
+            "totalEmployees": 138
+        }
+    },
+    {
+        "releaseDate": "2023-01-07",
+        "price": {
+            "currency": "USD",
+            "content": 911.2
+        },
+        "tickerSymbol": "AWN",
+        "company": {
+            "country": "ARMENIA",
+            "name": "JPMorgan Chase",
+            "totalEmployees": 138
+        }
+    },
+    {
+        "releaseDate": "2014-05-05",
+        "price": {
+            "currency": "USD",
+            "content": 155.7
+        },
+        "tickerSymbol": "GSS",
+        "company": {
+            "country": "BAHRAIN",
+            "name": "Samsung Electronics",
+            "totalEmployees": 120
+        }
+    },
+    {
+        "releaseDate": "2012-07-08",
+        "price": {
+            "currency": "USD",
+            "content": 993.5
+        },
+        "tickerSymbol": "AOV",
+        "company": {
+            "country": "AUSTRIA",
+            "name": "Intel",
+            "totalEmployees": 54
+        }
+    },
+    {
+        "releaseDate": "2018-01-12",
+        "price": {
+            "currency": "USD",
+            "content": 164.7
+        },
+        "tickerSymbol": "QCO",
+        "company": {
+            "country": "ARMENIA",
+            "name": "Verizon Communications",
+            "totalEmployees": 108
+        }
+    },
+    {
+        "releaseDate": "2005-05-13",
+        "price": {
+            "currency": "USD",
+            "content": 266.3
+        },
+        "tickerSymbol": "DRP",
+        "company": {
+            "country": "AUSTRIA",
+            "name": "Cisco Systems",
+            "totalEmployees": 63
+        }
+    },
+    {
+        "releaseDate": "2021-01-11",
+        "price": {
+            "currency": "USD",
+            "content": 472.5
+        },
+        "tickerSymbol": "CPK",
+        "company": {
+            "country": "ARMENIA",
+            "name": "Pfizer",
+            "totalEmployees": 60
+        }
+    },
+    {
+        "releaseDate": "2011-06-23",
+        "price": {
+            "currency": "USD",
+            "content": 834.6
+        },
+        "tickerSymbol": "NXI",
+        "company": {
+            "country": "BARBADOS",
+            "name": "Walmart",
+            "totalEmployees": 124
+        }
+    },
+    {
+        "releaseDate": "2014-01-18",
+        "price": {
+            "currency": "USD",
+            "content": 802.3
+        },
+        "tickerSymbol": "QWM",
+        "company": {
+            "country": "ALGERIA",
+            "name": "Apple",
+            "totalEmployees": 99
+        }
+    },
+    {
+        "releaseDate": "2007-08-19",
+        "price": {
+            "currency": "USD",
+            "content": 296.7
+        },
+        "tickerSymbol": "XGI",
+        "company": {
+            "country": "ANDORRA",
+            "name": "Intel",
+            "totalEmployees": 71
+        }
+    },
+    {
+        "releaseDate": "2020-09-02",
+        "price": {
+            "currency": "USD",
+            "content": 384.8
+        },
+        "tickerSymbol": "TJB",
+        "company": {
+            "country": "ALGERIA",
+            "name": "Facebook",
+            "totalEmployees": 51
+        }
+    },
+    {
+        "releaseDate": "2014-01-25",
+        "price": {
+            "currency": "USD",
+            "content": 646.2
+        },
+        "tickerSymbol": "PSX",
+        "company": {
+            "country": "AUSTRALIA",
+            "name": "Johnson Johnson",
+            "totalEmployees": 106
+        }
+    },
+    {
+        "releaseDate": "2017-10-10",
+        "price": {
+            "currency": "USD",
+            "content": 224.6
+        },
+        "tickerSymbol": "TVE",
+        "company": {
+            "country": "ALGERIA",
+            "name": "Samsung Electronics",
+            "totalEmployees": 123
+        }
+    },
+    {
+        "releaseDate": "2016-01-16",
+        "price": {
+            "currency": "USD",
+            "content": 386.7
+        },
+        "tickerSymbol": "LAG",
+        "company": {
+            "country": "AUSTRALIA",
+            "name": "Visa",
+            "totalEmployees": 93
+        }
+    },
+    {
+        "releaseDate": "2013-01-09",
+        "price": {
+            "currency": "USD",
+            "content": 999.2
+        },
+        "tickerSymbol": "TLO",
+        "company": {
+            "country": "ANTIGUA AND BARBUDA",
+            "name": "Walmart",
+            "totalEmployees": 138
+        }
+    },
+    {
+        "releaseDate": "2007-01-08",
+        "price": {
+            "currency": "USD",
+            "content": 523.7
+        },
+        "tickerSymbol": "RDP",
+        "company": {
+            "country": "AUSTRIA",
+            "name": "Amazon",
+            "totalEmployees": 101
+        }
+    },
+    {
+        "releaseDate": "2020-01-14",
+        "price": {
+            "currency": "USD",
+            "content": 30.1
+        },
+        "tickerSymbol": "XFZ",
+        "company": {
+            "country": "ALBANIA",
+            "name": "Walmart",
+            "totalEmployees": 69
+        }
+    },
+    {
+        "releaseDate": "2008-09-26",
+        "price": {
+            "currency": "USD",
+            "content": 968.9
+        },
+        "tickerSymbol": "BWJ",
+        "company": {
+            "country": "BAHRAIN",
+            "name": "Intel",
+            "totalEmployees": 89
+        }
+    },
+    {
+        "releaseDate": "2017-12-26",
+        "price": {
+            "currency": "USD",
+            "content": 408.8
+        },
+        "tickerSymbol": "KLA",
+        "company": {
+            "country": "ALGERIA",
+            "name": "JPMorgan Chase",
+            "totalEmployees": 59
+        }
+    },
+    {
+        "releaseDate": "2023-10-21",
+        "price": {
+            "currency": "USD",
+            "content": 556.1
+        },
+        "tickerSymbol": "AOO",
+        "company": {
+            "country": "ARGENTINA",
+            "name": "Facebook",
+            "totalEmployees": 95
+        }
+    },
+    {
+        "releaseDate": "2017-09-08",
+        "price": {
+            "currency": "USD",
+            "content": 281.6
+        },
+        "tickerSymbol": "QCF",
+        "company": {
+            "country": "ARMENIA",
+            "name": "Intel",
+            "totalEmployees": 96
+        }
+    },
+    {
+        "releaseDate": "2011-11-11",
+        "price": {
+            "currency": "USD",
+            "content": 299.6
+        },
+        "tickerSymbol": "QMF",
+        "company": {
+            "country": "BAHAMAS",
+            "name": "ExxonMobil",
+            "totalEmployees": 127
+        }
+    },
+    {
+        "releaseDate": "2009-06-28",
+        "price": {
+            "currency": "USD",
+            "content": 502.8
+        },
+        "tickerSymbol": "UOC",
+        "company": {
+            "country": "ALGERIA",
+            "name": "Amazon",
+            "totalEmployees": 116
+        }
+    },
+    {
+        "releaseDate": "2023-11-27",
+        "price": {
+            "currency": "USD",
+            "content": 751.1
+        },
+        "tickerSymbol": "WRF",
+        "company": {
+            "country": "BARBADOS",
+            "name": "Cisco Systems",
+            "totalEmployees": 138
+        }
+    },
+    {
+        "releaseDate": "2012-11-26",
+        "price": {
+            "currency": "USD",
+            "content": 349.2
+        },
+        "tickerSymbol": "YOK",
+        "company": {
+            "country": "ALGERIA",
+            "name": "Taiwan Semiconductor",
+            "totalEmployees": 56
+        }
+    },
+    {
+        "releaseDate": "2012-08-04",
+        "price": {
+            "currency": "USD",
+            "content": 308.3
+        },
+        "tickerSymbol": "KWF",
+        "company": {
+            "country": "BELARUS",
+            "name": "Mastercard",
+            "totalEmployees": 75
+        }
+    },
+    {
+        "releaseDate": "2019-04-06",
+        "price": {
+            "currency": "USD",
+            "content": 757.9
+        },
+        "tickerSymbol": "IDR",
+        "company": {
+            "country": "BARBADOS",
+            "name": "AT T",
+            "totalEmployees": 84
+        }
+    },
+    {
+        "releaseDate": "2018-08-08",
+        "price": {
+            "currency": "USD",
+            "content": 113.8
+        },
+        "tickerSymbol": "ORX",
+        "company": {
+            "country": "ALBANIA",
+            "name": "Tencent Holdings",
+            "totalEmployees": 93
+        }
+    },
+    {
+        "releaseDate": "2013-10-18",
+        "price": {
+            "currency": "USD",
+            "content": 595.2
+        },
+        "tickerSymbol": "QJL",
+        "company": {
+            "country": "BAHAMAS",
+            "name": "Amazon",
+            "totalEmployees": 69
+        }
+    },
+    {
+        "releaseDate": "2008-03-02",
+        "price": {
+            "currency": "USD",
+            "content": 742.6
+        },
+        "tickerSymbol": "FXB",
+        "company": {
+            "country": "AFGHANISTAN",
+            "name": "ICBC",
+            "totalEmployees": 101
+        }
+    },
+    {
+        "releaseDate": "2020-02-09",
+        "price": {
+            "currency": "USD",
+            "content": 794.4
+        },
+        "tickerSymbol": "LSZ",
+        "company": {
+            "country": "AFGHANISTAN",
+            "name": "Visa",
+            "totalEmployees": 83
+        }
+    },
+    {
+        "releaseDate": "2011-10-11",
+        "price": {
+            "currency": "USD",
+            "content": 226.2
+        },
+        "tickerSymbol": "USY",
+        "company": {
+            "country": "BAHAMAS",
+            "name": "Pfizer",
+            "totalEmployees": 124
+        }
+    },
+    {
+        "releaseDate": "2015-03-06",
+        "price": {
+            "currency": "USD",
+            "content": 810.9
+        },
+        "tickerSymbol": "CRW",
+        "company": {
+            "country": "ANGOLA",
+            "name": "Cisco Systems",
+            "totalEmployees": 123
+        }
+    },
+    {
+        "releaseDate": "2022-05-07",
+        "price": {
+            "currency": "USD",
+            "content": 81.6
+        },
+        "tickerSymbol": "TKB",
+        "company": {
+            "country": "ALGERIA",
+            "name": "Facebook",
+            "totalEmployees": 98
+        }
+    },
+    {
+        "releaseDate": "2021-07-02",
+        "price": {
+            "currency": "USD",
+            "content": 733.7
+        },
+        "tickerSymbol": "ZLG",
+        "company": {
+            "country": "ANDORRA",
+            "name": "ICBC",
+            "totalEmployees": 138
+        }
+    },
+    {
+        "releaseDate": "2008-01-04",
+        "price": {
+            "currency": "USD",
+            "content": 925.6
+        },
+        "tickerSymbol": "KTL",
+        "company": {
+            "country": "ANTIGUA AND BARBUDA",
+            "name": "Bank Of America",
+            "totalEmployees": 123
+        }
+    },
+    {
+        "releaseDate": "2007-06-16",
+        "price": {
+            "currency": "USD",
+            "content": 566
+        },
+        "tickerSymbol": "RVF",
+        "company": {
+            "country": "ALGERIA",
+            "name": "Walmart",
+            "totalEmployees": 78
+        }
+    },
+    {
+        "releaseDate": "2010-06-28",
+        "price": {
+            "currency": "USD",
+            "content": 940.8
+        },
+        "tickerSymbol": "FKS",
+        "company": {
+            "country": "BARBADOS",
+            "name": "Tencent Holdings",
+            "totalEmployees": 109
+        }
+    },
+    {
+        "releaseDate": "2012-08-03",
+        "price": {
+            "currency": "USD",
+            "content": 641.7
+        },
+        "tickerSymbol": "WTF",
+        "company": {
+            "country": "AFGHANISTAN",
+            "name": "Roche Holding",
+            "totalEmployees": 103
+        }
+    },
+    {
+        "releaseDate": "2007-08-22",
+        "price": {
+            "currency": "USD",
+            "content": 929
+        },
+        "tickerSymbol": "FBH",
+        "company": {
+            "country": "ANDORRA",
+            "name": "Visa",
+            "totalEmployees": 70
+        }
+    },
+    {
+        "releaseDate": "2007-02-13",
+        "price": {
+            "currency": "USD",
+            "content": 879.7
+        },
+        "tickerSymbol": "IFM",
+        "company": {
+            "country": "BAHAMAS",
+            "name": "Microsoft",
+            "totalEmployees": 99
+        }
+    },
+    {
+        "releaseDate": "2019-09-05",
+        "price": {
+            "currency": "USD",
+            "content": 941.2
+        },
+        "tickerSymbol": "VJR",
+        "company": {
+            "country": "ANDORRA",
+            "name": "Intel",
+            "totalEmployees": 122
+        }
+    },
+    {
+        "releaseDate": "2023-08-01",
+        "price": {
+            "currency": "USD",
+            "content": 593.5
+        },
+        "tickerSymbol": "HTT",
+        "company": {
+            "country": "BANGLADESH",
+            "name": "ICBC",
+            "totalEmployees": 40
+        }
+    },
+    {
+        "releaseDate": "2016-08-10",
+        "price": {
+            "currency": "USD",
+            "content": 502.2
+        },
+        "tickerSymbol": "YMU",
+        "company": {
+            "country": "BANGLADESH",
+            "name": "Verizon Communications",
+            "totalEmployees": 62
+        }
+    },
+    {
+        "releaseDate": "2017-11-17",
+        "price": {
+            "currency": "USD",
+            "content": 874.7
+        },
+        "tickerSymbol": "MOZ",
+        "company": {
+            "country": "AUSTRALIA",
+            "name": "Walmart",
+            "totalEmployees": 88
+        }
+    },
+    {
+        "releaseDate": "2010-06-10",
+        "price": {
+            "currency": "USD",
+            "content": 264.6
+        },
+        "tickerSymbol": "NHR",
+        "company": {
+            "country": "BANGLADESH",
+            "name": "Alibaba",
+            "totalEmployees": 125
+        }
+    },
+    {
+        "releaseDate": "2018-04-28",
+        "price": {
+            "currency": "USD",
+            "content": 143.6
+        },
+        "tickerSymbol": "OJJ",
+        "company": {
+            "country": "ANDORRA",
+            "name": "ICBC",
+            "totalEmployees": 139
+        }
+    },
+    {
+        "releaseDate": "2010-08-25",
+        "price": {
+            "currency": "USD",
+            "content": 519.5
+        },
+        "tickerSymbol": "BQZ",
+        "company": {
+            "country": "BARBADOS",
+            "name": "Intel",
+            "totalEmployees": 53
+        }
+    },
+    {
+        "releaseDate": "2012-06-12",
+        "price": {
+            "currency": "USD",
+            "content": 323.9
+        },
+        "tickerSymbol": "MXC",
+        "company": {
+            "country": "ALGERIA",
+            "name": "Johnson Johnson",
+            "totalEmployees": 99
+        }
+    },
+    {
+        "releaseDate": "2018-10-22",
+        "price": {
+            "currency": "USD",
+            "content": 367.9
+        },
+        "tickerSymbol": "ILD",
+        "company": {
+            "country": "BARBADOS",
+            "name": "Microsoft",
+            "totalEmployees": 138
+        }
+    },
+    {
+        "releaseDate": "2018-07-08",
+        "price": {
+            "currency": "USD",
+            "content": 238.9
+        },
+        "tickerSymbol": "BWX",
+        "company": {
+            "country": "BAHRAIN",
+            "name": "Nestle",
+            "totalEmployees": 50
+        }
+    },
+    {
+        "releaseDate": "2011-01-01",
+        "price": {
+            "currency": "USD",
+            "content": 513.9
+        },
+        "tickerSymbol": "FEX",
+        "company": {
+            "country": "ARMENIA",
+            "name": "Procter Gamble",
+            "totalEmployees": 97
+        }
+    },
+    {
+        "releaseDate": "2021-02-14",
+        "price": {
+            "currency": "USD",
+            "content": 249.3
+        },
+        "tickerSymbol": "OGP",
+        "company": {
+            "country": "AFGHANISTAN",
+            "name": "ExxonMobil",
+            "totalEmployees": 99
+        }
+    },
+    {
+        "releaseDate": "2008-01-19",
+        "price": {
+            "currency": "USD",
+            "content": 580
+        },
+        "tickerSymbol": "FXJ",
+        "company": {
+            "country": "AUSTRALIA",
+            "name": "Royal Dutch Shell",
+            "totalEmployees": 117
+        }
+    },
+    {
+        "releaseDate": "2016-10-04",
+        "price": {
+            "currency": "USD",
+            "content": 857.1
+        },
+        "tickerSymbol": "FQA",
+        "company": {
+            "country": "ANDORRA",
+            "name": "Microsoft",
+            "totalEmployees": 112
+        }
+    },
+    {
+        "releaseDate": "2006-06-07",
+        "price": {
+            "currency": "USD",
+            "content": 563.3
+        },
+        "tickerSymbol": "VFY",
+        "company": {
+            "country": "ALGERIA",
+            "name": "Pfizer",
+            "totalEmployees": 53
+        }
+    },
+    {
+        "releaseDate": "2012-01-22",
+        "price": {
+            "currency": "USD",
+            "content": 984.9
+        },
+        "tickerSymbol": "VRQ",
+        "company": {
+            "country": "ANDORRA",
+            "name": "Intel",
+            "totalEmployees": 64
+        }
+    },
+    {
+        "releaseDate": "2019-06-28",
+        "price": {
+            "currency": "USD",
+            "content": 553
+        },
+        "tickerSymbol": "QQU",
+        "company": {
+            "country": "ANGOLA",
+            "name": "AT T",
+            "totalEmployees": 83
+        }
+    },
+    {
+        "releaseDate": "2005-12-26",
+        "price": {
+            "currency": "USD",
+            "content": 907.7
+        },
+        "tickerSymbol": "WGF",
+        "company": {
+            "country": "BELARUS",
+            "name": "JPMorgan Chase",
+            "totalEmployees": 137
+        }
+    },
+    {
+        "releaseDate": "2011-04-19",
+        "price": {
+            "currency": "USD",
+            "content": 112.2
+        },
+        "tickerSymbol": "UJJ",
+        "company": {
+            "country": "AUSTRALIA",
+            "name": "Facebook",
+            "totalEmployees": 101
+        }
+    },
+    {
+        "releaseDate": "2013-12-14",
+        "price": {
+            "currency": "USD",
+            "content": 361.3
+        },
+        "tickerSymbol": "OHT",
+        "company": {
+            "country": "ANTIGUA AND BARBUDA",
+            "name": "ExxonMobil",
+            "totalEmployees": 70
+        }
+    },
+    {
+        "releaseDate": "2021-01-28",
+        "price": {
+            "currency": "USD",
+            "content": 790
+        },
+        "tickerSymbol": "ZRT",
+        "company": {
+            "country": "AFGHANISTAN",
+            "name": "Facebook",
+            "totalEmployees": 59
+        }
+    },
+    {
+        "releaseDate": "2010-10-21",
+        "price": {
+            "currency": "USD",
+            "content": 179.4
+        },
+        "tickerSymbol": "NHE",
+        "company": {
+            "country": "BELARUS",
+            "name": "Johnson Johnson",
+            "totalEmployees": 102
+        }
+    },
+    {
+        "releaseDate": "2021-02-25",
+        "price": {
+            "currency": "USD",
+            "content": 74.5
+        },
+        "tickerSymbol": "RHN",
+        "company": {
+            "country": "BARBADOS",
+            "name": "Alibaba",
+            "totalEmployees": 58
+        }
+    },
+    {
+        "releaseDate": "2019-01-17",
+        "price": {
+            "currency": "USD",
+            "content": 925.1
+        },
+        "tickerSymbol": "TBC",
+        "company": {
+            "country": "ANDORRA",
+            "name": "Nestle",
+            "totalEmployees": 114
+        }
+    },
+    {
+        "releaseDate": "2022-03-12",
+        "price": {
+            "currency": "USD",
+            "content": 723.6
+        },
+        "tickerSymbol": "GAA",
+        "company": {
+            "country": "BARBADOS",
+            "name": "Ping An Insurance Group",
+            "totalEmployees": 45
+        }
+    },
+    {
+        "releaseDate": "2019-11-28",
+        "price": {
+            "currency": "USD",
+            "content": 370
+        },
+        "tickerSymbol": "EBC",
+        "company": {
+            "country": "ALGERIA",
+            "name": "Home Depot",
+            "totalEmployees": 73
+        }
+    },
+    {
+        "releaseDate": "2017-09-17",
+        "price": {
+            "currency": "USD",
+            "content": 817.7
+        },
+        "tickerSymbol": "DAD",
+        "company": {
+            "country": "AZERBAIJAN",
+            "name": "Berkshire Hathaway",
+            "totalEmployees": 118
+        }
+    },
+    {
+        "releaseDate": "2010-12-02",
+        "price": {
+            "currency": "USD",
+            "content": 350.7
+        },
+        "tickerSymbol": "TFZ",
+        "company": {
+            "country": "ARGENTINA",
+            "name": "Roche Holding",
+            "totalEmployees": 47
+        }
+    },
+    {
+        "releaseDate": "2007-12-05",
+        "price": {
+            "currency": "USD",
+            "content": 66.7
+        },
+        "tickerSymbol": "UAH",
+        "company": {
+            "country": "AFGHANISTAN",
+            "name": "China Constructionank",
+            "totalEmployees": 53
+        }
+    },
+    {
+        "releaseDate": "2017-08-21",
+        "price": {
+            "currency": "USD",
+            "content": 483.3
+        },
+        "tickerSymbol": "IFS",
+        "company": {
+            "country": "BAHRAIN",
+            "name": "Chevron",
+            "totalEmployees": 120
+        }
+    },
+    {
+        "releaseDate": "2017-12-19",
+        "price": {
+            "currency": "USD",
+            "content": 873.6
+        },
+        "tickerSymbol": "GWX",
+        "company": {
+            "country": "BELARUS",
+            "name": "Ping An Insurance Group",
+            "totalEmployees": 83
+        }
+    },
+    {
+        "releaseDate": "2020-08-10",
+        "price": {
+            "currency": "USD",
+            "content": 455.6
+        },
+        "tickerSymbol": "GUB",
+        "company": {
+            "country": "ARGENTINA",
+            "name": "JPMorgan Chase",
+            "totalEmployees": 108
+        }
+    },
+    {
+        "releaseDate": "2017-07-05",
+        "price": {
+            "currency": "USD",
+            "content": 408
+        },
+        "tickerSymbol": "QLV",
+        "company": {
+            "country": "ARMENIA",
+            "name": "Intel",
+            "totalEmployees": 115
+        }
+    },
+    {
+        "releaseDate": "2015-08-02",
+        "price": {
+            "currency": "USD",
+            "content": 128.4
+        },
+        "tickerSymbol": "MFZ",
+        "company": {
+            "country": "BELARUS",
+            "name": "Nike",
+            "totalEmployees": 138
+        }
+    },
+    {
+        "releaseDate": "2018-04-22",
+        "price": {
+            "currency": "USD",
+            "content": 474.6
+        },
+        "tickerSymbol": "NHG",
+        "company": {
+            "country": "ALGERIA",
+            "name": "Microsoft",
+            "totalEmployees": 115
+        }
+    },
+    {
+        "releaseDate": "2021-06-22",
+        "price": {
+            "currency": "USD",
+            "content": 480.4
+        },
+        "tickerSymbol": "JLG",
+        "company": {
+            "country": "AUSTRIA",
+            "name": "Microsoft",
+            "totalEmployees": 55
+        }
+    },
+    {
+        "releaseDate": "2005-05-01",
+        "price": {
+            "currency": "USD",
+            "content": 276.1
+        },
+        "tickerSymbol": "OKO",
+        "company": {
+            "country": "BANGLADESH",
+            "name": "Apple",
+            "totalEmployees": 71
+        }
+    }
+]}}
